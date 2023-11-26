@@ -9,7 +9,7 @@ const HomePage: FC = () => {
   return (
     <div>
       <div className='github-ref'>
-        <Link href='https://github.com/ethnovak/monster-math' className='github-button' underline='none'>
+        <Link target='_blank' rel='noopener' href='https://github.com/ethnovak/monster-math' className='github-button' underline='none'>
           <FontAwesomeIcon className='github-icon' icon={faGithub} size='xl' /> View on GitHub
         </Link>
       </div>
