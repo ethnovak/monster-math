@@ -7,6 +7,7 @@ import HomePage from './home';
 
 import reportWebVitals from './reportWebVitals';
 import { ThemeProvider, createTheme } from '@mui/material';
+import GamePage from './game';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -28,6 +29,10 @@ const router = createBrowserRouter([
   {
     path: '/',
     element: <HomePage />
+  },
+  {
+    path: '/game',
+    element: <GamePage />
   }
 ]);
 

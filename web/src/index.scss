@@ -27,6 +27,26 @@ code {
 
 .github-button {
   color: #253237 !important;
+  align-self: center;
+}
+
+.title-bar {
+  display: flex;
+  flex-direction: row;
+  padding: 16px;
+}
+
+.titlebar-name {
+  font-family: 'Bangers', serif;
+  font-size: 36pt;
+  color: #2a393f;
+  margin-left: 16px;
+  align-self: center;
+  flex-grow: 1;
+}
+
+.title-monster {
+  height: 64px;
 }
 
 .home-container {
@@ -45,7 +65,7 @@ code {
   margin-bottom: 16px;
   font-family: 'Bangers', serif;
   font-size: 56pt;
-  color: #253237;
+  color: #2a393f;
 }
 
 .start-button {
